@@ -15,6 +15,7 @@ public class PoolsPlayer : MonoBehaviour
     private void Awake()
     {
         inputActions = new PoolsPlayerInputActions();
+        bulletPool = GameObject.Find("BulletPool").GetComponent<PoolScript>();
     }
 
     void Start()
@@ -43,6 +44,8 @@ public class PoolsPlayer : MonoBehaviour
 
     private void Shoot(InputAction.CallbackContext context)
     {
-        Debug.Log("Dispara");
+        GameObject bullet = bulletPool.RequestObject();
+        bullet.SetActive(true);
+        bullet.transform.position = transform.position;
     }
 }
