@@ -1,0 +1,34 @@
+{
+    "name": "FlappyActions",
+    "maps": [
+        {
+            "name": "Standard",
+            "id": "6317e6c4-fbd7-4ce7-ba25-05ff6f5d0a1f",
+            "actions": [
+                {
+                    "name": "Jump",
+                    "type": "Button",
+                    "id": "922bd824-a9a5-4707-8719-acc9291504af",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "09789826-b2c5-4b3d-a406-57c7afea98a2",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
