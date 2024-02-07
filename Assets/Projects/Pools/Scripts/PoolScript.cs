@@ -44,6 +44,7 @@ public class PoolScript : MonoBehaviour
             GameObject requestedObject = availableObjectList[0];
             availableObjectList.RemoveAt(0);
             activeObjectList.Add(requestedObject);
+            requestedObject.SetActive(true);
             return requestedObject;
         }
         else
