@@ -237,7 +237,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   poolPrefab: {fileID: 5542980312791333031, guid: 0e0d5b6de05e445409cabc7eb1c911c6, type: 3}
-  startingNumberOfObjects: 50
+  startingNumberOfObjects: 1
 --- !u!4 &656570589
 Transform:
   m_ObjectHideFlags: 0

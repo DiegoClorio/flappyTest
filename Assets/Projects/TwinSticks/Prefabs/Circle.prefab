@@ -101,6 +101,7 @@ MonoBehaviour:
   speed: 15
   pushForce: 100
   damage: 1
+  timeToDespawn: 1
 --- !u!58 &-3409869669753030614
 CircleCollider2D:
   m_ObjectHideFlags: 0
