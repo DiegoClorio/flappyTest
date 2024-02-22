@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-public class DatosDeJugador
+public struct DatosDeJugador
 {
 
     public Transform position;
