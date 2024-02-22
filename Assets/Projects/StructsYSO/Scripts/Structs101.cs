@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-public struct DatosDeJugador
+public class DatosDeJugador
 {
 
     public Transform position;
@@ -21,7 +21,7 @@ public class Structs101 : MonoBehaviour
     DatosDeJugador datosJugado2;
     DatosDeJugador datosJugado3;
 
-    List<DatosDeJugador> jugadores = new List<DatosDeJugador>();
+    public List<DatosDeJugador> jugadores = new List<DatosDeJugador>();
 
     public List<SO101> fruits;
     public GameObject fruit;

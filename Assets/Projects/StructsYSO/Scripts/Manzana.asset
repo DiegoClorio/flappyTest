@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 51d4998ae0e33e647ae4419220519767, type: 3}
   m_Name: Manzana
   m_EditorClassIdentifier: 
-  fruitName: 
-  price: 0
-  sprite: {fileID: 0}
+  fruitName: Manzana
+  price: 80
+  sprite: {fileID: 21300000, guid: 0779ad3feec52124e97114bcbb12ef13, type: 3}
   inStock: 0
